@@ -1,0 +1,25 @@
+friends=["Me","Utkarsh","Goel","Pranav","Kuki"]
+print(friends)#prints the list
+print(friends[2])#print the 3rd element of the list
+print(friends[-2])#print the second last element of the list
+print(friends[1:4])#print the list from index 1 to 3
+print(friends[1::])#print the whole list from index 1
+print(friends[:3])
+friends[2]="Arush"#change the value at index 2
+print(friends)
+num=[4,6,2,8,5,3]
+friends.extend(num)#extends the list to add another list
+print(friends)
+friends.append("Namor")#to add a element in the end of the list
+print(friends)
+friends.insert(5,"Kuldeep")#insert a element at certain index
+print(friends)
+friends.remove("Arush")#to remove a element
+friends.pop()#to pop a element from the last of the list
+print(friends.index("Pranav"))#to get the index of an element
+friends.append("Kuldeep")#to add an element in the last of the list
+print(friends.count("Kuldeep"))#to count the number of the occurence of a element
+print(num.sort())#to sort of a list
+print(num.reverse())#to reverse a list
+cp=num.copy()#to copy a list into another list
+friends.clear()#to clear a list
